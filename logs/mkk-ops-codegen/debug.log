@@ -1,0 +1,6 @@
+2020-12-17 11:28:31.180  INFO 20004 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-12-17 11:28:31.197  INFO 20004 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-12-17 11:28:31.212  INFO 20004 --- [main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2020-12-17 11:28:31.225  WARN 20004 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-ops-codegen] & group[DEFAULT_GROUP]
+2020-12-17 11:28:31.227  WARN 20004 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-ops-codegen.yml] & group[DEFAULT_GROUP]
+2020-12-17 11:28:31.231  INFO 20004 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mkk-ops-codegen-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-ops-codegen.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-ops-codegen,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yml,DEFAULT_GROUP'}]

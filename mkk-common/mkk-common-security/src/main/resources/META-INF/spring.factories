@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.cloud.mkk.common.security.service.MicroUserDetailsServiceImpl,\
+  com.cloud.mkk.common.security.component.MicroSecurityInnerAspect
+

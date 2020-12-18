@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/mkk-base/mkk-base-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-base/mkk-base-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-base/mkk-base-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-base/mkk-base-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-sentinel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-sentinel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-common/mkk-common-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-config/mkk-config-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-config/mkk-config-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-config/mkk-config-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-config/mkk-config-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-ops/mkk-ops-codegen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-ops/mkk-ops-codegen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-ops/mkk-ops-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-ops/mkk-ops-monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-rbac/mkk-rbac-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-rbac/mkk-rbac-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-rbac/mkk-rbac-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mkk-rbac/mkk-rbac-biz/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

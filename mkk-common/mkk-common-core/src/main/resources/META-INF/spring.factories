@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.cloud.mkk.common.core.config.JacksonConfiguration,\
+  com.cloud.mkk.common.core.config.RedisTemplateConfiguration,\
+  com.cloud.mkk.common.core.config.RestTemplateConfiguration,\
+  com.cloud.mkk.common.core.config.WebMvcConfiguration,\
+  com.cloud.mkk.common.core.util.SpringContextHolder,\
+  com.cloud.mkk.common.core.util.RedisUtil

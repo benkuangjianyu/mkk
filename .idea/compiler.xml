@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mkk-base-gateway" />
+        <module name="mkk-config-api" />
+        <module name="mkk-common-log" />
+        <module name="mkk-config-biz" />
+        <module name="mkk-common-security" />
+        <module name="mkk-common-datasource" />
+        <module name="mkk-common-swagger" />
+        <module name="mkk-rbac-biz" />
+        <module name="mkk-ops-monitor" />
+        <module name="mkk-rbac-api" />
+        <module name="mkk-common-mybatis" />
+        <module name="mkk-ops-codegen" />
+        <module name="mkk-common-test" />
+        <module name="mkk-base-auth" />
+        <module name="mkk-common-sentinel" />
+        <module name="mkk-common-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

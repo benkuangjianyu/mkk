@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mkk-common</artifactId>
+        <groupId>mkk.cloud</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mkk-common-log</artifactId>
+    <description>日志服务</description>
+
+    <dependencies>
+        <!--工具类核心包-->
+        <dependency>
+            <groupId>mkk.cloud</groupId>
+            <artifactId>mkk-common-core</artifactId>
+        </dependency>
+        <!--UPMS接口模块-->
+        <dependency>
+            <groupId>mkk.cloud</groupId>
+            <artifactId>mkk-rbac-api</artifactId>
+        </dependency>
+        <!--安全依赖获取上下文信息-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+        </dependency>
+    </dependencies>
+</project>

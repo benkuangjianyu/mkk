@@ -1,0 +1,30 @@
+2020-12-17 11:27:59.035  INFO 18192 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-12-17 11:27:59.062  INFO 18192 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-12-17 11:27:59.082  INFO 18192 --- [main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2020-12-17 11:27:59.092  WARN 18192 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz] & group[DEFAULT_GROUP]
+2020-12-17 11:27:59.096  WARN 18192 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz.yml] & group[DEFAULT_GROUP]
+2020-12-17 11:27:59.101  INFO 18192 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yml,DEFAULT_GROUP'}]
+2020-12-17 13:56:23.932  INFO 25124 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-12-17 13:56:23.961  INFO 25124 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-12-17 13:56:23.981  INFO 25124 --- [main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2020-12-17 13:56:23.991  WARN 25124 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz] & group[DEFAULT_GROUP]
+2020-12-17 13:56:23.995  WARN 25124 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz.yml] & group[DEFAULT_GROUP]
+2020-12-17 13:56:23.998  INFO 25124 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yml,DEFAULT_GROUP'}]
+2020-12-17 14:02:42.901  INFO 21944 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-12-17 14:02:42.930  INFO 21944 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-12-17 14:02:42.953  INFO 21944 --- [main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2020-12-17 14:02:42.963  WARN 21944 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz] & group[DEFAULT_GROUP]
+2020-12-17 14:02:42.965  WARN 21944 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz.yml] & group[DEFAULT_GROUP]
+2020-12-17 14:02:42.968  INFO 21944 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yml,DEFAULT_GROUP'}]
+2020-12-17 14:39:38.253  INFO 20664 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-12-17 14:39:38.282  INFO 20664 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-12-17 14:39:38.307  INFO 20664 --- [main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2020-12-17 14:39:38.317  WARN 20664 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz] & group[DEFAULT_GROUP]
+2020-12-17 14:39:38.319  WARN 20664 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz.yml] & group[DEFAULT_GROUP]
+2020-12-17 14:39:38.323  INFO 20664 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yml,DEFAULT_GROUP'}]
+2020-12-17 15:12:54.937  INFO 23244 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-12-17 15:12:54.966  INFO 23244 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-12-17 15:12:54.990  INFO 23244 --- [main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2020-12-17 15:12:55.001  WARN 23244 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz] & group[DEFAULT_GROUP]
+2020-12-17 15:12:55.002  WARN 23244 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[mkk-rbac-biz.yml] & group[DEFAULT_GROUP]
+2020-12-17 15:12:55.005  INFO 23244 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mkk-rbac-biz,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yml,DEFAULT_GROUP'}]

@@ -1,0 +1,555 @@
+[2020-12-17 11:27:29.613] [background-preinit] HV000001: Hibernate Validator 6.1.6.Final 
+[2020-12-17 11:27:29.844] [main] Post-processing PropertySource instances 
+[2020-12-17 11:27:29.886] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 11:27:29.887] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.887] [main] Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.888] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.888] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.888] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:27:29.888] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.888] [main] Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.888] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:29.919] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 11:27:29.922] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 11:27:29.923] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 11:27:30.325] [main] Bootstraping jasypt-string-boot auto configuration in context: mkk-base-gateway-1 
+[2020-12-17 11:27:30.326] [main] The following profiles are active: dev 
+[2020-12-17 11:27:30.998] [main] Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 11:27:31.000] [main] Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 11:27:31.135] [main] Multiple Spring Data modules found, entering strict repository configuration mode! 
+[2020-12-17 11:27:31.137] [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+[2020-12-17 11:27:31.160] [main] Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces. 
+[2020-12-17 11:27:31.219] [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 11:27:31.282] [main] BeanFactory id=b81421d0-2c74-31f3-a1c1-c8023d1595fe 
+[2020-12-17 11:27:31.285] [main] Post-processing PropertySource instances 
+[2020-12-17 11:27:31.294] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:27:31.294] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource bootstrapProperties-application-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:27:31.295] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:27:31.301] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 11:27:31.458] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 11:27:31.458] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 11:27:31.508] [main] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:27:31.579] [main] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:27:31.583] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:27:31.585] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:27:31.586] [main] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:27:31.794] [main] Initializing ExecutorService 
+[2020-12-17 11:27:32.468] [main] initializer namespace from System Property :null 
+[2020-12-17 11:27:32.468] [main] initializer namespace from System Environment :null 
+[2020-12-17 11:27:32.468] [main] initializer namespace from System Property :null 
+[2020-12-17 11:27:33.065] [main] [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [After] 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [Before] 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [Between] 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [Cookie] 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [Header] 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [Host] 
+[2020-12-17 11:27:33.178] [main] Loaded RoutePredicateFactory [Method] 
+[2020-12-17 11:27:33.179] [main] Loaded RoutePredicateFactory [Path] 
+[2020-12-17 11:27:33.179] [main] Loaded RoutePredicateFactory [Query] 
+[2020-12-17 11:27:33.179] [main] Loaded RoutePredicateFactory [ReadBody] 
+[2020-12-17 11:27:33.179] [main] Loaded RoutePredicateFactory [RemoteAddr] 
+[2020-12-17 11:27:33.179] [main] Loaded RoutePredicateFactory [Weight] 
+[2020-12-17 11:27:33.179] [main] Loaded RoutePredicateFactory [CloudFoundryRouteService] 
+[2020-12-17 11:27:33.253] [main] Exposing 21 endpoint(s) beneath base path '/actuator' 
+[2020-12-17 11:27:33.309] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 11:27:33.309] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 11:27:33.313] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 11:27:33.313] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 11:27:33.609] [main] [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler 
+[2020-12-17 11:27:33.622] [main] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler' 
+[2020-12-17 11:27:33.723] [main] 
+
+Using generated security password: 3fc0ef90-066a-4989-9871-e9dbd8b67097
+ 
+[2020-12-17 11:27:34.067] [main] [LISTENER] adding DEFAULT_GROUP@@mkk-base-gateway with DEFAULT to listener map 
+[2020-12-17 11:27:34.275] [main] Netty started on port(s): 9999 
+[2020-12-17 11:27:34.668] [main] [BEAT] adding beat: BeatInfo{port=9999, ip='192.168.139.1', weight=1.0, serviceName='DEFAULT_GROUP@@mkk-base-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map. 
+[2020-12-17 11:27:34.668] [main] [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@mkk-base-gateway with instance: Instance{instanceId='null', ip='192.168.139.1', port=9999, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}} 
+[2020-12-17 11:27:34.670] [main] nacos registry, DEFAULT_GROUP mkk-base-gateway 192.168.139.1:9999 register finished 
+[2020-12-17 11:27:34.716] [main] Started GatewayApplication in 5.694 seconds (JVM running for 6.352) 
+[2020-12-17 11:27:34.719] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway.yml+DEFAULT_GROUP 
+[2020-12-17 11:27:34.720] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 11:27:34.720] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway-dev.yml+DEFAULT_GROUP 
+[2020-12-17 11:27:34.721] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 11:27:34.721] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway+DEFAULT_GROUP 
+[2020-12-17 11:27:34.721] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 11:27:35.079] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:27:35.081] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:39.209] [reactor-http-nio-3] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 11:28:39.225] [reactor-http-nio-3] Client: mkk-base-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 11:28:39.232] [reactor-http-nio-3] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 11:28:39.237] [reactor-http-nio-3] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:39.238] [reactor-http-nio-3] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:39.245] [reactor-http-nio-3] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 11:28:39.246] [reactor-http-nio-3] DynamicServerListLoadBalancer for client mkk-base-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[192.168.139.1:3000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:3000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@42c3160f 
+[2020-12-17 11:28:39.874] [lettuce-nioEventLoop-5-10] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 11:28:39.875] [lettuce-nioEventLoop-5-10] Client: mkk-rbac-biz instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 11:28:39.876] [lettuce-nioEventLoop-5-10] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 11:28:39.878] [lettuce-nioEventLoop-5-10] new ips(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:39.878] [lettuce-nioEventLoop-5-10] current ips:(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:39.879] [lettuce-nioEventLoop-5-10] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 11:28:39.880] [lettuce-nioEventLoop-5-10] DynamicServerListLoadBalancer for client mkk-rbac-biz initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[192.168.139.1:4000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:4000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@2101f68d 
+[2020-12-17 11:28:40.236] [PollingServerListUpdater-0] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 11:28:40.878] [PollingServerListUpdater-1] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 13:53:30.216] [background-preinit] HV000001: Hibernate Validator 6.1.6.Final 
+[2020-12-17 13:53:30.460] [main] Post-processing PropertySource instances 
+[2020-12-17 13:53:30.504] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.505] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:30.534] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 13:53:30.539] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 13:53:30.539] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 13:53:30.900] [main] Bootstraping jasypt-string-boot auto configuration in context: mkk-base-gateway-1 
+[2020-12-17 13:53:30.900] [main] The following profiles are active: dev 
+[2020-12-17 13:53:31.578] [main] Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 13:53:31.581] [main] Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 13:53:31.718] [main] Multiple Spring Data modules found, entering strict repository configuration mode! 
+[2020-12-17 13:53:31.720] [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+[2020-12-17 13:53:31.742] [main] Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces. 
+[2020-12-17 13:53:31.798] [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 13:53:31.858] [main] BeanFactory id=b81421d0-2c74-31f3-a1c1-c8023d1595fe 
+[2020-12-17 13:53:31.861] [main] Post-processing PropertySource instances 
+[2020-12-17 13:53:31.869] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 13:53:31.869] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 13:53:31.869] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource bootstrapProperties-application-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 13:53:31.870] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 13:53:31.876] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 13:53:32.035] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 13:53:32.036] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 13:53:32.084] [main] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 13:53:32.156] [main] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 13:53:32.161] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 13:53:32.162] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 13:53:32.163] [main] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 13:53:32.371] [main] Initializing ExecutorService 
+[2020-12-17 13:53:33.048] [main] initializer namespace from System Property :null 
+[2020-12-17 13:53:33.049] [main] initializer namespace from System Environment :null 
+[2020-12-17 13:53:33.049] [main] initializer namespace from System Property :null 
+[2020-12-17 13:53:33.606] [main] [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [After] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Before] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Between] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Cookie] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Header] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Host] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Method] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Path] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [Query] 
+[2020-12-17 13:53:33.698] [main] Loaded RoutePredicateFactory [ReadBody] 
+[2020-12-17 13:53:33.699] [main] Loaded RoutePredicateFactory [RemoteAddr] 
+[2020-12-17 13:53:33.699] [main] Loaded RoutePredicateFactory [Weight] 
+[2020-12-17 13:53:33.699] [main] Loaded RoutePredicateFactory [CloudFoundryRouteService] 
+[2020-12-17 13:53:33.759] [main] Exposing 21 endpoint(s) beneath base path '/actuator' 
+[2020-12-17 13:53:33.812] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 13:53:33.812] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 13:53:33.815] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 13:53:33.815] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 13:53:34.111] [main] [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler 
+[2020-12-17 13:53:34.123] [main] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler' 
+[2020-12-17 13:53:34.228] [main] 
+
+Using generated security password: 0d6f8da3-b8d7-4e39-aa82-42ae52f148eb
+ 
+[2020-12-17 13:53:34.576] [main] [LISTENER] adding DEFAULT_GROUP@@mkk-base-gateway with DEFAULT to listener map 
+[2020-12-17 13:53:34.775] [main] Netty started on port(s): 9999 
+[2020-12-17 13:53:35.172] [main] [BEAT] adding beat: BeatInfo{port=9999, ip='192.168.139.1', weight=1.0, serviceName='DEFAULT_GROUP@@mkk-base-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map. 
+[2020-12-17 13:53:35.172] [main] [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@mkk-base-gateway with instance: Instance{instanceId='null', ip='192.168.139.1', port=9999, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}} 
+[2020-12-17 13:53:35.176] [main] nacos registry, DEFAULT_GROUP mkk-base-gateway 192.168.139.1:9999 register finished 
+[2020-12-17 13:53:35.222] [main] Started GatewayApplication in 5.59 seconds (JVM running for 6.25) 
+[2020-12-17 13:53:35.226] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway.yml+DEFAULT_GROUP 
+[2020-12-17 13:53:35.226] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 13:53:35.227] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway-dev.yml+DEFAULT_GROUP 
+[2020-12-17 13:53:35.227] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 13:53:35.227] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway+DEFAULT_GROUP 
+[2020-12-17 13:53:35.227] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 13:53:35.589] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 13:53:35.592] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 13:57:00.637] [reactor-http-nio-3] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 13:57:00.650] [reactor-http-nio-3] Client: mkk-base-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 13:57:00.656] [reactor-http-nio-3] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 13:57:00.659] [reactor-http-nio-3] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 13:57:00.660] [reactor-http-nio-3] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 13:57:00.668] [reactor-http-nio-3] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 13:57:00.670] [reactor-http-nio-3] DynamicServerListLoadBalancer for client mkk-base-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[192.168.139.1:3000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:3000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@795baa53 
+[2020-12-17 13:57:01.659] [PollingServerListUpdater-0] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:01:48.317] [background-preinit] HV000001: Hibernate Validator 6.1.6.Final 
+[2020-12-17 14:01:48.560] [main] Post-processing PropertySource instances 
+[2020-12-17 14:01:48.603] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 14:01:48.603] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.603] [main] Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.603] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.603] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.604] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 14:01:48.604] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.604] [main] Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.604] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:48.633] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 14:01:48.636] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 14:01:48.637] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 14:01:49.004] [main] Bootstraping jasypt-string-boot auto configuration in context: mkk-base-gateway-1 
+[2020-12-17 14:01:49.004] [main] The following profiles are active: dev 
+[2020-12-17 14:01:49.680] [main] Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 14:01:49.683] [main] Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 14:01:49.824] [main] Multiple Spring Data modules found, entering strict repository configuration mode! 
+[2020-12-17 14:01:49.826] [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+[2020-12-17 14:01:49.849] [main] Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces. 
+[2020-12-17 14:01:49.905] [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 14:01:49.966] [main] BeanFactory id=b81421d0-2c74-31f3-a1c1-c8023d1595fe 
+[2020-12-17 14:01:49.969] [main] Post-processing PropertySource instances 
+[2020-12-17 14:01:49.978] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:01:49.978] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:01:49.978] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:01:49.978] [main] Converting PropertySource bootstrapProperties-application-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:01:49.978] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 14:01:49.978] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 14:01:49.979] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:01:49.984] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 14:01:50.147] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 14:01:50.147] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 14:01:50.196] [main] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:01:50.269] [main] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:01:50.273] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:01:50.274] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:01:50.275] [main] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:01:50.488] [main] Initializing ExecutorService 
+[2020-12-17 14:01:51.167] [main] initializer namespace from System Property :null 
+[2020-12-17 14:01:51.167] [main] initializer namespace from System Environment :null 
+[2020-12-17 14:01:51.168] [main] initializer namespace from System Property :null 
+[2020-12-17 14:01:51.724] [main] [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [After] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Before] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Between] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Cookie] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Header] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Host] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Method] 
+[2020-12-17 14:01:51.817] [main] Loaded RoutePredicateFactory [Path] 
+[2020-12-17 14:01:51.818] [main] Loaded RoutePredicateFactory [Query] 
+[2020-12-17 14:01:51.818] [main] Loaded RoutePredicateFactory [ReadBody] 
+[2020-12-17 14:01:51.818] [main] Loaded RoutePredicateFactory [RemoteAddr] 
+[2020-12-17 14:01:51.818] [main] Loaded RoutePredicateFactory [Weight] 
+[2020-12-17 14:01:51.818] [main] Loaded RoutePredicateFactory [CloudFoundryRouteService] 
+[2020-12-17 14:01:51.878] [main] Exposing 21 endpoint(s) beneath base path '/actuator' 
+[2020-12-17 14:01:51.931] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 14:01:51.931] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 14:01:51.934] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 14:01:51.934] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 14:01:52.225] [main] [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler 
+[2020-12-17 14:01:52.238] [main] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler' 
+[2020-12-17 14:01:52.343] [main] 
+
+Using generated security password: 9fc6024b-d6c9-4ef0-ae90-52e63d342e20
+ 
+[2020-12-17 14:01:52.688] [main] [LISTENER] adding DEFAULT_GROUP@@mkk-base-gateway with DEFAULT to listener map 
+[2020-12-17 14:01:52.887] [main] Netty started on port(s): 9999 
+[2020-12-17 14:01:53.280] [main] [BEAT] adding beat: BeatInfo{port=9999, ip='192.168.139.1', weight=1.0, serviceName='DEFAULT_GROUP@@mkk-base-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map. 
+[2020-12-17 14:01:53.280] [main] [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@mkk-base-gateway with instance: Instance{instanceId='null', ip='192.168.139.1', port=9999, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}} 
+[2020-12-17 14:01:53.283] [main] nacos registry, DEFAULT_GROUP mkk-base-gateway 192.168.139.1:9999 register finished 
+[2020-12-17 14:01:53.330] [main] Started GatewayApplication in 5.62 seconds (JVM running for 6.284) 
+[2020-12-17 14:01:53.334] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway.yml+DEFAULT_GROUP 
+[2020-12-17 14:01:53.334] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 14:01:53.335] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway-dev.yml+DEFAULT_GROUP 
+[2020-12-17 14:01:53.335] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 14:01:53.335] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway+DEFAULT_GROUP 
+[2020-12-17 14:01:53.335] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 14:01:53.700] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:01:53.702] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:03:15.904] [reactor-http-nio-11] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:03:15.918] [reactor-http-nio-11] Client: mkk-base-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 14:03:15.923] [reactor-http-nio-11] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 14:03:15.927] [reactor-http-nio-11] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:03:15.928] [reactor-http-nio-11] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:03:15.936] [reactor-http-nio-11] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:03:15.937] [reactor-http-nio-11] DynamicServerListLoadBalancer for client mkk-base-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[192.168.139.1:3000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:3000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@61271563 
+[2020-12-17 14:03:16.928] [PollingServerListUpdater-0] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:05:36.979] [com.alibaba.nacos.client.naming.updater] removed ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:05:36.980] [com.alibaba.nacos.client.naming.updater] current ips:(0) service: DEFAULT_GROUP@@mkk-base-auth -> [] 
+[2020-12-17 14:06:06.990] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:06:06.991] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:23:04.428] [lettuce-nioEventLoop-5-12] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:23:04.430] [lettuce-nioEventLoop-5-12] Client: mkk-rbac-biz instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 14:23:04.431] [lettuce-nioEventLoop-5-12] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 14:23:04.432] [lettuce-nioEventLoop-5-12] new ips(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:23:04.433] [lettuce-nioEventLoop-5-12] current ips:(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:23:04.434] [lettuce-nioEventLoop-5-12] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:23:04.434] [lettuce-nioEventLoop-5-12] DynamicServerListLoadBalancer for client mkk-rbac-biz initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[192.168.139.1:4000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:4000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@6ef572f7 
+[2020-12-17 14:23:05.433] [PollingServerListUpdater-0] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:37:28.235] [background-preinit] HV000001: Hibernate Validator 6.1.6.Final 
+[2020-12-17 14:37:28.479] [main] Post-processing PropertySource instances 
+[2020-12-17 14:37:28.522] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 14:37:28.522] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.522] [main] Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.523] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.523] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.523] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 14:37:28.523] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.523] [main] Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.523] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:28.553] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 14:37:28.557] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 14:37:28.557] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 14:37:28.923] [main] Bootstraping jasypt-string-boot auto configuration in context: mkk-base-gateway-1 
+[2020-12-17 14:37:28.924] [main] The following profiles are active: dev 
+[2020-12-17 14:37:29.608] [main] Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 14:37:29.610] [main] Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 14:37:29.754] [main] Multiple Spring Data modules found, entering strict repository configuration mode! 
+[2020-12-17 14:37:29.755] [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+[2020-12-17 14:37:29.779] [main] Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces. 
+[2020-12-17 14:37:29.831] [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 14:37:29.890] [main] BeanFactory id=b81421d0-2c74-31f3-a1c1-c8023d1595fe 
+[2020-12-17 14:37:29.893] [main] Post-processing PropertySource instances 
+[2020-12-17 14:37:29.901] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:37:29.901] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:37:29.901] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource bootstrapProperties-application-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 14:37:29.902] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 14:37:29.908] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 14:37:30.064] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 14:37:30.064] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 14:37:30.113] [main] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:37:30.185] [main] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:37:30.189] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:37:30.190] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:37:30.192] [main] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 14:37:30.401] [main] Initializing ExecutorService 
+[2020-12-17 14:37:31.077] [main] initializer namespace from System Property :null 
+[2020-12-17 14:37:31.077] [main] initializer namespace from System Environment :null 
+[2020-12-17 14:37:31.078] [main] initializer namespace from System Property :null 
+[2020-12-17 14:37:31.631] [main] [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [After] 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [Before] 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [Between] 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [Cookie] 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [Header] 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [Host] 
+[2020-12-17 14:37:31.724] [main] Loaded RoutePredicateFactory [Method] 
+[2020-12-17 14:37:31.725] [main] Loaded RoutePredicateFactory [Path] 
+[2020-12-17 14:37:31.725] [main] Loaded RoutePredicateFactory [Query] 
+[2020-12-17 14:37:31.725] [main] Loaded RoutePredicateFactory [ReadBody] 
+[2020-12-17 14:37:31.725] [main] Loaded RoutePredicateFactory [RemoteAddr] 
+[2020-12-17 14:37:31.725] [main] Loaded RoutePredicateFactory [Weight] 
+[2020-12-17 14:37:31.725] [main] Loaded RoutePredicateFactory [CloudFoundryRouteService] 
+[2020-12-17 14:37:31.786] [main] Exposing 21 endpoint(s) beneath base path '/actuator' 
+[2020-12-17 14:37:31.841] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 14:37:31.842] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 14:37:31.845] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 14:37:31.845] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 14:37:32.139] [main] [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler 
+[2020-12-17 14:37:32.152] [main] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler' 
+[2020-12-17 14:37:32.256] [main] 
+
+Using generated security password: acf362c1-6fab-481e-88ed-d7df674a23a2
+ 
+[2020-12-17 14:37:32.600] [main] [LISTENER] adding DEFAULT_GROUP@@mkk-base-gateway with DEFAULT to listener map 
+[2020-12-17 14:37:32.799] [main] Netty started on port(s): 9999 
+[2020-12-17 14:37:33.185] [main] [BEAT] adding beat: BeatInfo{port=9999, ip='192.168.139.1', weight=1.0, serviceName='DEFAULT_GROUP@@mkk-base-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map. 
+[2020-12-17 14:37:33.185] [main] [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@mkk-base-gateway with instance: Instance{instanceId='null', ip='192.168.139.1', port=9999, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}} 
+[2020-12-17 14:37:33.187] [main] nacos registry, DEFAULT_GROUP mkk-base-gateway 192.168.139.1:9999 register finished 
+[2020-12-17 14:37:33.233] [main] Started GatewayApplication in 5.657 seconds (JVM running for 6.396) 
+[2020-12-17 14:37:33.236] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway.yml+DEFAULT_GROUP 
+[2020-12-17 14:37:33.237] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 14:37:33.238] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway-dev.yml+DEFAULT_GROUP 
+[2020-12-17 14:37:33.238] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 14:37:33.238] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway+DEFAULT_GROUP 
+[2020-12-17 14:37:33.238] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 14:37:33.613] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:37:33.615] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:39:55.631] [reactor-http-nio-2] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:39:55.643] [reactor-http-nio-2] Client: mkk-base-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 14:39:55.648] [reactor-http-nio-2] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 14:39:55.653] [reactor-http-nio-2] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:39:55.654] [reactor-http-nio-2] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:39:55.661] [reactor-http-nio-2] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:39:55.662] [reactor-http-nio-2] DynamicServerListLoadBalancer for client mkk-base-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[192.168.139.1:3000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:3000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@6db31b35 
+[2020-12-17 14:39:56.651] [PollingServerListUpdater-0] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:40:02.674] [lettuce-nioEventLoop-5-10] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:40:02.676] [lettuce-nioEventLoop-5-10] Client: mkk-rbac-biz instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 14:40:02.677] [lettuce-nioEventLoop-5-10] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 14:40:02.679] [lettuce-nioEventLoop-5-10] new ips(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:40:02.680] [lettuce-nioEventLoop-5-10] current ips:(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:40:02.680] [lettuce-nioEventLoop-5-10] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:40:02.681] [lettuce-nioEventLoop-5-10] DynamicServerListLoadBalancer for client mkk-rbac-biz initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[192.168.139.1:4000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:4000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@14e6029a 
+[2020-12-17 14:40:03.679] [PollingServerListUpdater-0] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 14:45:36.781] [com.alibaba.nacos.client.naming.updater] removed ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:45:36.782] [com.alibaba.nacos.client.naming.updater] current ips:(0) service: DEFAULT_GROUP@@mkk-base-auth -> [] 
+[2020-12-17 14:45:50.788] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:45:50.789] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:54:30.915] [com.alibaba.nacos.client.naming.updater] removed ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:54:30.916] [com.alibaba.nacos.client.naming.updater] current ips:(0) service: DEFAULT_GROUP@@mkk-base-auth -> [] 
+[2020-12-17 14:54:36.921] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:54:36.921] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:55:06.928] [com.alibaba.nacos.client.naming.updater] removed ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:55:06.929] [com.alibaba.nacos.client.naming.updater] current ips:(0) service: DEFAULT_GROUP@@mkk-base-auth -> [] 
+[2020-12-17 14:56:08.939] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 14:56:08.939] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:12:25.092] [background-preinit] HV000001: Hibernate Validator 6.1.6.Final 
+[2020-12-17 15:12:25.345] [main] Post-processing PropertySource instances 
+[2020-12-17 15:12:25.387] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 15:12:25.387] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.387] [main] Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.387] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.388] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.388] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 15:12:25.388] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.388] [main] Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.388] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:25.418] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 15:12:25.421] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 15:12:25.422] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 15:12:25.802] [main] Bootstraping jasypt-string-boot auto configuration in context: mkk-base-gateway-1 
+[2020-12-17 15:12:25.803] [main] The following profiles are active: dev 
+[2020-12-17 15:12:26.482] [main] Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 15:12:26.485] [main] Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 15:12:26.630] [main] Multiple Spring Data modules found, entering strict repository configuration mode! 
+[2020-12-17 15:12:26.631] [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+[2020-12-17 15:12:26.655] [main] Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces. 
+[2020-12-17 15:12:26.711] [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 15:12:26.771] [main] BeanFactory id=b81421d0-2c74-31f3-a1c1-c8023d1595fe 
+[2020-12-17 15:12:26.774] [main] Post-processing PropertySource instances 
+[2020-12-17 15:12:26.783] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 15:12:26.783] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 15:12:26.783] [main] Converting PropertySource bootstrapProperties-mkk-base-gateway,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 15:12:26.783] [main] Converting PropertySource bootstrapProperties-application-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 15:12:26.783] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 15:12:26.783] [main] Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 15:12:26.784] [main] Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 15:12:26.789] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 15:12:26.950] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 15:12:26.950] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 15:12:27.001] [main] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 15:12:27.074] [main] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 15:12:27.079] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 15:12:27.080] [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 15:12:27.081] [main] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 15:12:27.290] [main] Initializing ExecutorService 
+[2020-12-17 15:12:27.974] [main] initializer namespace from System Property :null 
+[2020-12-17 15:12:27.975] [main] initializer namespace from System Environment :null 
+[2020-12-17 15:12:27.975] [main] initializer namespace from System Property :null 
+[2020-12-17 15:12:28.545] [main] [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [After] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Before] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Between] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Cookie] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Header] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Host] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Method] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Path] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Query] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [ReadBody] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [RemoteAddr] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [Weight] 
+[2020-12-17 15:12:28.643] [main] Loaded RoutePredicateFactory [CloudFoundryRouteService] 
+[2020-12-17 15:12:28.704] [main] Exposing 21 endpoint(s) beneath base path '/actuator' 
+[2020-12-17 15:12:28.759] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 15:12:28.759] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 15:12:28.762] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 15:12:28.762] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 15:12:29.062] [main] [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler 
+[2020-12-17 15:12:29.076] [main] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler' 
+[2020-12-17 15:12:29.185] [main] 
+
+Using generated security password: 16bea669-9010-4305-9442-0e327d38c014
+ 
+[2020-12-17 15:12:29.538] [main] [LISTENER] adding DEFAULT_GROUP@@mkk-base-gateway with DEFAULT to listener map 
+[2020-12-17 15:12:29.740] [main] Netty started on port(s): 9999 
+[2020-12-17 15:12:30.134] [main] [BEAT] adding beat: BeatInfo{port=9999, ip='192.168.139.1', weight=1.0, serviceName='DEFAULT_GROUP@@mkk-base-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map. 
+[2020-12-17 15:12:30.135] [main] [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@mkk-base-gateway with instance: Instance{instanceId='null', ip='192.168.139.1', port=9999, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}} 
+[2020-12-17 15:12:30.138] [main] nacos registry, DEFAULT_GROUP mkk-base-gateway 192.168.139.1:9999 register finished 
+[2020-12-17 15:12:30.185] [main] Started GatewayApplication in 5.77 seconds (JVM running for 6.469) 
+[2020-12-17 15:12:30.188] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway.yml+DEFAULT_GROUP 
+[2020-12-17 15:12:30.189] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 15:12:30.189] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway-dev.yml+DEFAULT_GROUP 
+[2020-12-17 15:12:30.189] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 15:12:30.190] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-base-gateway+DEFAULT_GROUP 
+[2020-12-17 15:12:30.190] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-base-gateway, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 15:12:30.550] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:12:30.553] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-base-gateway@@DEFAULT -> [{"instanceId":"192.168.139.1#9999#DEFAULT#DEFAULT_GROUP@@mkk-base-gateway","ip":"192.168.139.1","port":9999,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:13:13.047] [reactor-http-nio-3] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 15:13:13.060] [reactor-http-nio-3] Client: mkk-base-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 15:13:13.064] [reactor-http-nio-3] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 15:13:13.068] [reactor-http-nio-3] new ips(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:13:13.068] [reactor-http-nio-3] current ips:(1) service: DEFAULT_GROUP@@mkk-base-auth -> [{"instanceId":"192.168.139.1#3000#DEFAULT#DEFAULT_GROUP@@mkk-base-auth","ip":"192.168.139.1","port":3000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-base-auth","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:13:13.076] [reactor-http-nio-3] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 15:13:13.077] [reactor-http-nio-3] DynamicServerListLoadBalancer for client mkk-base-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-base-auth,current list of Servers=[192.168.139.1:3000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:3000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@7ec4dfc 
+[2020-12-17 15:13:14.067] [PollingServerListUpdater-0] Flipping property: mkk-base-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 15:13:14.275] [lettuce-nioEventLoop-5-10] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 15:13:14.276] [lettuce-nioEventLoop-5-10] Client: mkk-rbac-biz instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 15:13:14.277] [lettuce-nioEventLoop-5-10] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 15:13:14.279] [lettuce-nioEventLoop-5-10] new ips(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:13:14.280] [lettuce-nioEventLoop-5-10] current ips:(1) service: DEFAULT_GROUP@@mkk-rbac-biz -> [{"instanceId":"192.168.139.1#4000#DEFAULT#DEFAULT_GROUP@@mkk-rbac-biz","ip":"192.168.139.1","port":4000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-rbac-biz","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 15:13:14.280] [lettuce-nioEventLoop-5-10] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 15:13:14.281] [lettuce-nioEventLoop-5-10] DynamicServerListLoadBalancer for client mkk-rbac-biz initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-rbac-biz,current list of Servers=[192.168.139.1:4000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.139.1:4000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@5737d4c3 
+[2020-12-17 15:13:15.279] [PollingServerListUpdater-0] Flipping property: mkk-rbac-biz.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 17:32:30.363] [reactor-http-nio-5] Flipping property: mkk-ops-codegen.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-12-17 17:32:30.364] [reactor-http-nio-5] Client: mkk-ops-codegen instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-ops-codegen,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-12-17 17:32:30.365] [reactor-http-nio-5] Using serverListUpdater PollingServerListUpdater 
+[2020-12-17 17:32:30.366] [reactor-http-nio-5] DynamicServerListLoadBalancer for client mkk-ops-codegen initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=mkk-ops-codegen,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@62aa9a76 

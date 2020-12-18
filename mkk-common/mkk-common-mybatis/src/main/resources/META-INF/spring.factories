@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.cloud.mkk.common.mybatis.MybatisAutoConfiguration,\
+  com.cloud.mkk.common.mybatis.interceptor.MybatisResultInterceptor,\
+  com.cloud.mkk.common.mybatis.config.DruidConfiguration

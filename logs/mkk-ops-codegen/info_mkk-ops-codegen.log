@@ -1,0 +1,104 @@
+[2020-12-17 11:28:30.499] [background-preinit] HV000001: Hibernate Validator 6.1.6.Final 
+[2020-12-17 11:28:30.768] [main] Post-processing PropertySource instances 
+[2020-12-17 11:28:30.816] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 11:28:30.817] [main] Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:30.817] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:30.818] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:30.818] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:28:30.818] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:30.818] [main] Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:30.851] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 11:28:30.855] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 11:28:30.856] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 11:28:31.243] [main] Bootstraping jasypt-string-boot auto configuration in context: mkk-ops-codegen-1 
+[2020-12-17 11:28:31.243] [main] The following profiles are active: dev 
+[2020-12-17 11:28:31.957] [main] AutoProxyRegistrar was imported but no annotations were found having both 'mode' and 'proxyTargetClass' attributes of type AdviceMode and boolean respectively. This means that auto proxy creator registration and configuration may not have occurred as intended, and components may not be proxied as expected. Check to ensure that AutoProxyRegistrar has been @Import'ed on the same class where these annotations are declared; otherwise remove the import of AutoProxyRegistrar altogether. 
+[2020-12-17 11:28:32.048] [main] Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 11:28:32.051] [main] Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 11:28:32.323] [main] Multiple Spring Data modules found, entering strict repository configuration mode! 
+[2020-12-17 11:28:32.326] [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+[2020-12-17 11:28:32.346] [main] Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces. 
+[2020-12-17 11:28:32.398] [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+[2020-12-17 11:28:32.515] [main] BeanFactory id=b5254efd-f0cf-3e92-818c-b95f2344f78c 
+[2020-12-17 11:28:32.527] [main] Post-processing PropertySource instances 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource bootstrapProperties-mkk-ops-codegen-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource bootstrapProperties-mkk-ops-codegen.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource bootstrapProperties-mkk-ops-codegen,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource bootstrapProperties-application-dev.yml,DEFAULT_GROUP [org.springframework.cloud.bootstrap.config.BootstrapPropertySource] to EncryptableEnumerablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper 
+[2020-12-17 11:28:32.539] [main] Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper 
+[2020-12-17 11:28:32.622] [main] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter 
+[2020-12-17 11:28:32.861] [main] Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.866] [main] Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$50bf579a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.879] [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver 
+[2020-12-17 11:28:32.879] [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector 
+[2020-12-17 11:28:32.879] [main] Bean 'spring.datasource-com.cloud.mkk.common.datasource.config.DataSourceProperties' of type [com.cloud.mkk.common.datasource.config.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.881] [main] Bean 'com.cloud.mkk.common.datasource.DynamicDataSourceAutoConfiguration' of type [com.cloud.mkk.common.datasource.DynamicDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.883] [main] Bean 'dsProcessor' of type [com.cloud.mkk.common.datasource.config.LastParamDsProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.913] [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1450131a' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.919] [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:32.995] [main] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:33.099] [main] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-12-17 11:28:33.354] [main] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used 
+[2020-12-17 11:28:33.388] [main] Initializing Spring embedded WebApplicationContext 
+[2020-12-17 11:28:33.389] [main] Root WebApplicationContext: initialization completed in 2123 ms 
+[2020-12-17 11:28:33.824] [main] 成功加载数据库驱动程序 
+[2020-12-17 11:28:33.968] [main] 成功获取数据库连接 
+[2020-12-17 11:28:33.981] [main] String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor 
+[2020-12-17 11:28:33.990] [main] Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES 
+[2020-12-17 11:28:33.991] [main] Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000 
+[2020-12-17 11:28:33.991] [main] Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1 
+[2020-12-17 11:28:33.991] [main] Encryptor config not found for property jasypt.encryptor.providerName, using default value: null 
+[2020-12-17 11:28:33.991] [main] Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null 
+[2020-12-17 11:28:33.991] [main] Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator 
+[2020-12-17 11:28:33.992] [main] Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64 
+[2020-12-17 11:28:34.274] [main] {dataSource-1,mkk_base} inited 
+[2020-12-17 11:28:34.278] [main] {dataSource-2,master} inited 
+[2020-12-17 11:28:34.282] [main] dynamic-datasource - load a datasource named [mkk_base] success 
+[2020-12-17 11:28:34.282] [main] dynamic-datasource - load a datasource named [master] success 
+[2020-12-17 11:28:34.282] [main] dynamic-datasource initial loaded [2] datasource,primary datasource named [master] 
+[2020-12-17 11:28:35.212] [main] [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**]. 
+[2020-12-17 11:28:35.629] [main] Initializing ExecutorService 
+[2020-12-17 11:28:35.732] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 11:28:35.733] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 11:28:35.736] [main] No URLs will be polled as dynamic configuration sources. 
+[2020-12-17 11:28:35.736] [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-12-17 11:28:35.831] [main] Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-12-17 11:28:36.290] [main] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler' 
+[2020-12-17 11:28:36.297] [main] initializer namespace from System Property :null 
+[2020-12-17 11:28:36.297] [main] initializer namespace from System Environment :null 
+[2020-12-17 11:28:36.297] [main] initializer namespace from System Property :null 
+[2020-12-17 11:28:36.470] [main] 初始化数据源配置OK...... 
+[2020-12-17 11:28:36.894] [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5dc7391e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ba402b5, org.springframework.security.web.header.HeaderWriterFilter@4c9d833, org.springframework.security.web.authentication.logout.LogoutFilter@4fd63c43, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@1bf10539, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d02c00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8c18bde, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a9ff419, org.springframework.security.web.session.SessionManagementFilter@30cb223b, org.springframework.security.web.access.ExceptionTranslationFilter@5ccc971e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7455204c] 
+[2020-12-17 11:28:37.203] [main] All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release. 
+[2020-12-17 11:28:37.208] [main] Exposing 21 endpoint(s) beneath base path '/actuator' 
+[2020-12-17 11:28:37.352] [main] [LISTENER] adding DEFAULT_GROUP@@mkk-ops-codegen with DEFAULT to listener map 
+[2020-12-17 11:28:37.363] [main] starting server: Undertow - 2.1.4.Final 
+[2020-12-17 11:28:37.369] [main] XNIO version 3.8.0.Final 
+[2020-12-17 11:28:37.377] [main] XNIO NIO Implementation Version 3.8.0.Final 
+[2020-12-17 11:28:37.414] [main] JBoss Threads version 3.1.0.Final 
+[2020-12-17 11:28:37.455] [main] Undertow started on port(s) 5002 (http) 
+[2020-12-17 11:28:37.459] [main] [BEAT] adding beat: BeatInfo{port=5002, ip='192.168.139.1', weight=1.0, serviceName='DEFAULT_GROUP@@mkk-ops-codegen', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map. 
+[2020-12-17 11:28:37.459] [main] [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@mkk-ops-codegen with instance: Instance{instanceId='null', ip='192.168.139.1', port=5002, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}} 
+[2020-12-17 11:28:37.463] [main] nacos registry, DEFAULT_GROUP mkk-ops-codegen 192.168.139.1:5002 register finished 
+[2020-12-17 11:28:37.691] [main] Started CodeGenApplication in 7.91 seconds (JVM running for 8.725) 
+[2020-12-17 11:28:37.695] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-ops-codegen-dev.yml+DEFAULT_GROUP 
+[2020-12-17 11:28:37.696] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-ops-codegen-dev.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 11:28:37.697] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-ops-codegen.yml+DEFAULT_GROUP 
+[2020-12-17 11:28:37.697] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-ops-codegen.yml, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 11:28:37.697] [main] [fixed-10.101.128.148_8848] [subscribe] mkk-ops-codegen+DEFAULT_GROUP 
+[2020-12-17 11:28:37.697] [main] [fixed-10.101.128.148_8848] [add-listener] ok, tenant=, dataId=mkk-ops-codegen, group=DEFAULT_GROUP, cnt=1 
+[2020-12-17 11:28:38.183] [RMI TCP Connection(8)-192.168.139.1] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-12-17 11:28:38.183] [RMI TCP Connection(8)-192.168.139.1] Initializing Servlet 'dispatcherServlet' 
+[2020-12-17 11:28:38.191] [RMI TCP Connection(8)-192.168.139.1] Completed initialization in 8 ms 
+[2020-12-17 11:28:38.358] [com.alibaba.nacos.client.naming.updater] new ips(1) service: DEFAULT_GROUP@@mkk-ops-codegen@@DEFAULT -> [{"instanceId":"192.168.139.1#5002#DEFAULT#DEFAULT_GROUP@@mkk-ops-codegen","ip":"192.168.139.1","port":5002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-ops-codegen","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:38.504] [com.alibaba.nacos.client.naming.updater] current ips:(1) service: DEFAULT_GROUP@@mkk-ops-codegen@@DEFAULT -> [{"instanceId":"192.168.139.1#5002#DEFAULT#DEFAULT_GROUP@@mkk-ops-codegen","ip":"192.168.139.1","port":5002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mkk-ops-codegen","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}] 
+[2020-12-17 11:28:39.227] [RMI TCP Connection(9)-192.168.139.1] {dataSource-3} inited 
